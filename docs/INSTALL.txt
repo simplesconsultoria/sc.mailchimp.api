@@ -1,0 +1,34 @@
+sc.mailchimp.api Installation
+==================================
+
+To install sc.mailchimp.api into the global Python environment (or a workingenv),
+using a traditional Zope 2 instance, you can do this:
+
+ * When you're reading this you have probably already run
+   ``easy_install sc.mailchimp.api``. Find out how to install setuptools
+   (and EasyInstall) here:
+   http://peak.telecommunity.com/DevCenter/EasyInstall
+
+or
+
+* You run ``pip install sc.mailchimp.api``.Find out how to pip installs Python packages here:
+http://www.pip-installer.org/en/latest/
+
+Alternatively, if you are using zc.buildout and the plone.recipe.zope2instance
+recipe to manage your project, you can do this:
+
+ * Add ``sc.mailchimp.api`` to the list of eggs to install, e.g.:
+
+    [buildout]
+    ...
+    eggs =
+        ...
+        sc.mailchimp.api
+
+  * Re-run buildout, e.g. with:
+
+    $ ./bin/buildout -vvv
+
+* It's not necessary tell the plone.recipe.zope2instance recipe to install a ZCML slug.
+
+* Find out how to using in README.txt file

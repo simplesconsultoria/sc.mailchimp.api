@@ -1,0 +1,3 @@
+- Implement tests.
+- Update documentation and create utilization examples.
+- Generate egg package.
