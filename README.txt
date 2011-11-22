@@ -49,7 +49,7 @@ Usage
  * method (More info in http://apidocs.mailchimp.com/1.3. eg.: getAccountDetails)
  * output (Output Formats for Serialized calls. json is default. eg.: json, php,xml or lolcode)
  * Others parameters (Each method requires a certain parameter, the information in the API eg.:
-    mc(method='listMemberInfo',id='List X', email_address='cleber@simplesconsultoria.com.
+    mc(method='listMemberInfo',id='List X', email_address='cleber@simplesconsultoria.com').
 
 
 >>> from sc.mailchimp.api import MailChimp
